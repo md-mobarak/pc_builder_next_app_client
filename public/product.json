@@ -1,0 +1,592 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://cloud.ryanscomputers.com/cdn/products/small/bundle-with-pc-amd-ryzen-5-5600g-6-core-desktop-21629723661.webp",
+      "productName": "Processor 1",
+      "category": "CPU / Processor",
+      "status": "In Stock",
+      "price": 199.99,
+      "description": "Description of Product 1",
+      "keyFeatures": {
+        "Brand": "Brand 1",
+        "Model": "Model 1",
+        "Specification": "Specification 1",
+        "Port": "Port 1",
+        "Type": "Type 1",
+        "Resolution": "Resolution 1",
+        "Voltage": "Voltage 1"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.2,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Great product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://cloud.ryanscomputers.com/cdn/products/small/amd-ryzen-5-4600g-zen-2-11670657768.webp",
+      "productName": "Processor 2",
+      "category": "CPU / Processor",
+      "status": "Out of Stock",
+      "price": 149.99,
+      "description": "Description of Product 2",
+      "keyFeatures": {
+        "Brand": "Brand 2",
+        "Model": "Model 2",
+        "Specification": "Specification 2",
+        "Port": "Port 2",
+        "Type": "Type 2",
+        "Resolution": "Resolution 2",
+        "Voltage": "Voltage 2"
+      },
+      "individualRating": 4.0,
+      "averageRating": 3.8,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Nice product but pricey.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://cloud.ryanscomputers.com/cdn/products/small/intel-11th-gen-rocket-lake-core-i5-11400f-lga1200-11663829776.webp",
+      "productName": "Processor 3",
+      "category": "CPU / Processor",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/adata-4gb-ddr4-2666mhz-desktop-31564381862.webp",
+      "productName": "RAM 1",
+      "category": "RAM",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/twinmos-4gb-ddr4-2400mhz-desktop-11555824495.webp",
+      "productName": "RAM 2",
+      "category": "RAM",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/transcend-jetram-4gb-ddr4-3200mhz-laptop-ram-11629635797.webp",
+      "productName": "RAM 3",
+      "category": "RAM",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/biostar-a520mh-ddr4-amd-am4-socket-11632203330.webp",
+      "productName": "Motherboard 1",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/biostar-a520mh-ddr4-amd-am4-socket-11632203330.webp",
+      "productName": "Motherboard 2",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/gigabyte-ga-h310m-h-ddr4-8th-gen-lga1151-socket-11545217511.webp",
+      "productName": "Motherboard 3",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/corsair-rm-series-rm750-750-watt-atx-fully-11643183814.webp",
+      "productName": "Power Supply Unit 1",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/corsair-hx-series-hx850-850-watt-sfx-full-modular-11687351893.webp",
+      "productName": "Power Supply Unit 2",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/corsair-vs450-450w-80-plus-white-certified-31552297961.webp",
+      "productName": "Power Supply Unit 3",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://img.freepik.com/free-vector/colored-gadgets-scheme-isometric-icon-set-with-computer-reserve-parts-microcircuit-vector-illustration_1284-18049.jpg?size=626&ext=jpg&ga=GA1.2.832354014.1675511612&semt=ais",
+      "productName": "Storage Device 1",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://img.freepik.com/free-vector/cloud-computing-concept_1284-4091.jpg?size=626&ext=jpg&ga=GA1.1.832354014.1675511612&semt=ais",
+      "productName": "Storage Device 2",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "image": "https://img.freepik.com/premium-photo/computer-folder-network-concept-3d-rendered-illustration_441797-4940.jpg?size=626&ext=jpg&ga=GA1.2.832354014.1675511612&semt=ais",
+      "productName": "Storage Device 3",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/acer-v196hqlabi-185-inch-hd-tn-led-hdmi-vga-11663655689.webp",
+      "productName": "Monitor 1",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/xiaomi-redmi-2145-inch-fhd-ips-hdmi-vga-monitor-11661423378.webp",
+      "productName": "Monitor 2",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/acer-ka222q-hbmixka222q-h-215-inch-fhd-display-11691669125.webp",
+      "productName": "Monitor 3",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/tronix-i3-black-wireless-21564982051.webp",
+      "productName": "Mouse 1",
+      "category": "Mouse",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/micropack-m101-black-optical-usb-11543306270.webp",
+      "productName": "Mouse 2",
+      "category": "Mouse",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "image": "https://www.cloud.ryanscomputers.com/cdn/products/small/meetion-mt-m371-wired-black-gaming-11638430349.webp",
+      "productName": "Mouse 3",
+      "category": "Mouser",
+      "status": "In Stock",
+      "price": 249.99,
+      "description": "Description of Product 3",
+      "keyFeatures": {
+        "Brand": "Brand 3",
+        "Model": "Model 3",
+        "Specification": "Specification 3",
+        "Port": "Port 3",
+        "Type": "Type 3",
+        "Resolution": "Resolution 3",
+        "Voltage": "Voltage 3"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "id": 1,
+          "user": "User 1",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    }
+  ]
+}
