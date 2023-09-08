@@ -1,14 +1,13 @@
+// "use client";
 /* eslint-disable react/jsx-key */
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Banner from "./Banner";
 import Product from "./Product";
 
 const Home = ({ data }) => {
-  // Shuffle the data array
-  const shuffledData = data.sort(() => Math.random() - 0.5);
-
+  const shuffledData = data?.sort(() => Math?.random() - 0.5);
   // Take the first 6 elements from the shuffled array
-  const randomProducts = shuffledData.slice(0, 6);
+  const randomProducts = shuffledData?.slice(0, 6);
 
   return (
     <div>
@@ -19,7 +18,7 @@ const Home = ({ data }) => {
         </h1>
         <div className="border border-green-400 p-10 rounded-lg bg-white shadow-xl">
           <div className="grid lg:grid-cols-3 space-x-4 space-y-8 mx-auto ">
-            {randomProducts.map((product) => (
+            {randomProducts?.map((product) => (
               <Product key={product?._id} product={product}></Product>
             ))}
           </div>
