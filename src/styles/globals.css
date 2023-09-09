@@ -13,6 +13,9 @@
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
+body {
+  background-color: white;
+}
 
 /* Change background color to a different color when hovered */
 .custom-button:hover {

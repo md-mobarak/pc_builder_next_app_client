@@ -2,9 +2,12 @@
 /* eslint-disable react/jsx-key */
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Banner from "./Banner";
+import Features from "./Features";
 import Product from "./Product";
 
 const Home = ({ data }) => {
+  // const category = data.map((c) => c.category);
+  // console.log(category);
   const shuffledData = data?.sort(() => Math?.random() - 0.5);
   // Take the first 6 elements from the shuffled array
   const randomProducts = shuffledData?.slice(0, 6);
@@ -16,7 +19,7 @@ const Home = ({ data }) => {
         <h1 className="text-center text-5xl font-bold text-neutral my-4">
           OUR PRODUCT
         </h1>
-        <div className="border border-green-400 p-10 rounded-lg bg-white shadow-xl">
+        <div className="p-10 rounded-lg bg-white shadow-xl">
           <div className="grid lg:grid-cols-3 space-x-4 space-y-8 mx-auto ">
             {randomProducts?.map((product) => (
               <Product key={product?._id} product={product}></Product>
@@ -30,6 +33,7 @@ const Home = ({ data }) => {
           </div>
         </div>
       </div>
+      <Features></Features>
     </div>
   );
 };

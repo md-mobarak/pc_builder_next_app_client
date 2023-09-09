@@ -3,7 +3,7 @@
 import { useRouter } from "next/router";
 
 const ProductDetails = ({ data }) => {
-  console.log(data?.averageRating);
+  // console.log(data?.category);
   const {
     _id,
     id,

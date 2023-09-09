@@ -1,13 +1,15 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 
+import Link from "next/link";
+
 /* eslint-disable @next/next/no-html-link-for-pages */
 const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 py-4">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white lg:text-2xl lg:font-semibold">
+        <Link href="/" className="text-white lg:text-2xl lg:font-semibold">
           Your Logo
-        </a>
+        </Link>
         <div className="text-white flex lg:block">
           <button>Contact</button>
           <button className="lg:mx-5 mx-2">Shop</button>
