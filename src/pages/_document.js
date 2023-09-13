@@ -1,5 +1,5 @@
-import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/shared/Footer";
 import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -7,9 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <nav>
-          <Navbar />
-        </nav>
+      
         <div className="min-h-screen">
           <Main />
           <NextScript />

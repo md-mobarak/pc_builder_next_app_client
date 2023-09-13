@@ -2,21 +2,21 @@
 import Product from "@/components/Home/Product";
 import { useRouter } from "next/router";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-// import Product from "./Product";
 
 const featuresDetails = ({ data }) => {
   const router = useRouter();
-  let featuresName = router?.query?.featuresDetail.toLocaleLowerCase();
+  let featuresName = router?.query?.featuresDetail?.toLocaleLowerCase();
 
   if (featuresName === "cpu") {
     featuresName = "cpu / processor";
   } else if (featuresName === "storage") {
     featuresName = "storage device";
   }
-
   const filterData = data?.filter(
     (c) => c?.category?.toLocaleLowerCase() === featuresName
   );
+
+
   return (
     <div className="lg:my-20 my-10">
       <h1 className="text-center font-bold text-blue-500 lg:text-4xl text-erro uppercase">
