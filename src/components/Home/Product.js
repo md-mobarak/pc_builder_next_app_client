@@ -1,3 +1,4 @@
+import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -5,12 +6,17 @@ import "react-toastify/dist/ReactToastify.css";
 const Product = ({ product }) => {
   const router = useRouter();
   const { pathname } = router;
+  const { data: session } = useSession();
 
   const handleDataPostInPcBuild = (data) => {
-    const email = "hello@gmail.com";
+    const email = session?.user?.email;
     const newData = {
       email: email,
-      ...data,
+      image: data?.image,
+      productName: data?.productName,
+      category: data?.category,
+      price: data?.price,
+      status: data?.status,
     };
     fetch("http://localhost:5000/build", {
       method: "POST",
@@ -26,14 +32,13 @@ const Product = ({ product }) => {
         return res.json();
       })
       .then((responseData) => {
-        // console.log(responseData);
-        toast.success("successfully done");
-        // If the POST request was successful, navigate to "/pcBuilder"
-        router.push("/pcBuilder");
+        if (responseData?.acknowledged === true) {
+          toast.success("successfully done");
+          router.push("/pcBuilder");
+        }
       })
       .catch((error) => {
         console.error("Error:", error);
-        // Handle the error, e.g., show a user-friendly error message
       });
   };
   const handleNavigate = (product) => {

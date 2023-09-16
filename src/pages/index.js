@@ -10,7 +10,7 @@ const Index = ({ data }) => {
 
 export default Index;
 // Define the getServerSideProps function
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     // Fetch data from an API or any other data source
     const res = await fetch("http://localhost:5000/product");
@@ -23,6 +23,7 @@ export async function getServerSideProps() {
       props: {
         data,
       },
+      revalidate: 10,
     };
   } catch (error) {
     console.log("Error fetching data:", error);

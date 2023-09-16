@@ -1,12 +1,14 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 // import { useSession } from "next-auth/react";
-import { useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 /* eslint-disable @next/next/no-html-link-for-pages */
 const Navbar = () => {
   const { data: session } = useSession();
-  console.log(session);
+  const route = useRouter();
+  // console.log(session);
   return (
     <nav className="bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 py-4">
       <div className="container mx-auto flex justify-between items-center">
@@ -24,11 +26,20 @@ const Navbar = () => {
               PC Builder
             </button>
           </Link>
-          <Link href="/login">
-            <button className="bg-neutral  text-white px-4 py-2 rounded-full ">
-              LOGIN
+          {session?.user ? (
+            <button
+              onClick={() => signOut()}
+              className="bg-neutral  text-white px-4 py-2 rounded-full "
+            >
+              LogOut
             </button>
-          </Link>
+          ) : (
+            <Link href="/login">
+              <button className="bg-neutral  text-white px-4 py-2 rounded-full ">
+                Login
+              </button>
+            </Link>
+          )}
           <div className="relative inline-block text-left group">
             <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 text-white px-4 py-2 rounded-full hover:bg-indigo-400">
               Categories

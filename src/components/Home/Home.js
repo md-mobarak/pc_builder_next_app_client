@@ -6,8 +6,7 @@ import Features from "./Features";
 import Product from "./Product";
 
 const Home = ({ data }) => {
-  // const category = data.map((c) => c.category);
-  // console.log(category);
+  // console.log(data);
   const shuffledData = data?.sort(() => Math?.random() - 0.5);
   // Take the first 6 elements from the shuffled array
   const randomProducts = shuffledData?.slice(0, 6);
