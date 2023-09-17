@@ -1,11 +1,13 @@
 import Home from "@/components/Home/Home";
+import { useEffect } from "react";
 
 const Index = ({ data }) => {
-  return (
-    <main>
-      <Home data={data}></Home>
-    </main>
-  );
+  useEffect(()=>{
+data
+  },[data])
+  return <main>
+    <Home data={data}></Home>
+    </main>;
 };
 
 export default Index;

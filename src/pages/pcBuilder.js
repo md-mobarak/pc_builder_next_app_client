@@ -3,6 +3,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { getSession } from "next-auth/react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import {
   BsFillCpuFill,
   BsFillMotherboardFill,
@@ -14,6 +15,7 @@ import { ImCloudDownload } from "react-icons/im";
 import { toast } from "react-toastify";
 
 const PcBuilder = ({ data }) => {
+  const router = useRouter();
   const storage = data?.filter((s) => s?.category === "Storage Device");
   const cpu = data?.filter((c) => c?.category === "CPU / Processor");
   const monitor = data?.filter((m) => m?.category === "Monitor");
@@ -29,11 +31,12 @@ const PcBuilder = ({ data }) => {
         if (!res.ok) {
           throw new Error("Product not found");
         }
-        return res.text()
+        return res.text();
       })
       .then((data) => {
         if (data) {
-          toast?.success("successfully deleted Product")
+          // router.reload();
+          toast?.success("successfully deleted Product");
         }
       })
       .catch((error) => {
@@ -315,11 +318,13 @@ export async function getServerSideProps(context) {
     }
     const data = await response.json();
     // console.log(data);
+
     // Return the data as props
     return {
       props: {
         data,
       },
+      // revalidet:60
     };
   } catch (error) {
     console.error("Error fetching data:", error);

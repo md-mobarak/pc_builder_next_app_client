@@ -16,7 +16,6 @@ const featuresDetails = ({ data }) => {
     (c) => c?.category?.toLocaleLowerCase() === featuresName
   );
 
-
   return (
     <div className="lg:my-20 my-10">
       <h1 className="text-center font-bold text-blue-500 lg:text-4xl text-erro uppercase">
@@ -42,14 +41,15 @@ const featuresDetails = ({ data }) => {
 
 export default featuresDetails;
 // Define the getServerSideProps function
+// Define the getServerSideProps function
 export async function getServerSideProps() {
   try {
     // Fetch data from an API or any other data source
     const res = await fetch("http://localhost:5000/product");
-    if (!res?.ok) {
+    if (!res.ok) {
       throw new Error("Failed to fetch data");
     }
-    const data = await res?.json();
+    const data = await res.json();
     // Return the data as props
     return {
       props: {

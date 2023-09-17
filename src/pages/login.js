@@ -86,7 +86,7 @@ const login = () => {
             <button
               onClick={() =>
                 signIn("google", {
-                  callbackUrl: "http://localhost:3000/",
+                  callbackUrl: "https://pc-builder-next-app-6.vercel.app/",
                 })
               }
               type="button"
@@ -97,7 +97,7 @@ const login = () => {
             <button
               onClick={() =>
                 signIn("github", {
-                  callbackUrl: "http://localhost:3000/",
+                  callbackUrl: "https://pc-builder-next-app-6.vercel.app/",
                 })
               }
               type="button"

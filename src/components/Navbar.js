@@ -51,48 +51,48 @@ const Navbar = () => {
                 aria-orientation="vertical"
                 aria-labelledby="options-menu"
               >
-                <a
-                  href="#"
+                <Link
+                  href="details/CPU"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
                   CPU / Processor
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="details/motherboard"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
                   Motherboard
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="details/ram"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
                   RAM
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="details/Power supply unit"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
                   Power Supply Unit
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="details/storage"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
                   Storage Device
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="details/monitor"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   role="menuitem"
                 >
                   Monitor
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
