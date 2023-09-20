@@ -4,13 +4,13 @@ This is a simple PC Builder website for PC parts and components built using Next
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Navigation](#navigation)
-- [Home Page](#home-page)
-- [Featured Categories](#featured-categories)
-- [Product Detail Page](#product-detail-page)
-- [PC Builder Page](#pc-builder-page)
+- [Getting Started](#https://pc-builder-next-app-6.vercel.app/)
+- [Usage](#https://pc-builder-next-app-6.vercel.app/)
+- [Navigation](#https://pc-builder-next-app-6.vercel.app/)
+- [Home Page](#https://pc-builder-next-app-6.vercel.app/)
+- [Featured Categories](#https://pc-builder-next-app-6.vercel.app/)
+- [Product Detail Page](#https://pc-builder-next-app-6.vercel.app/productDetails/64f87af5f9d50c0560f7a066)
+- [PC Builder Page](#https://pc-builder-next-app-6.vercel.app)
 
 ## Getting Started
 
