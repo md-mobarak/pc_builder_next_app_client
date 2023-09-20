@@ -24,7 +24,7 @@ const PcBuilder = ({ data }) => {
   const powerSupply = data?.filter((p) => p?.category === "Power Supply Unit");
 
   const deleteProduct = (id) => {
-    fetch(`http://localhost:5000/build/${id}`, {
+    fetch(`https://builder-next-app-6-server-3.vercel.app/build/${id}`, {
       method: "DELETE",
     })
       .then((res) => {
@@ -311,7 +311,7 @@ export async function getServerSideProps(context) {
     const email = session?.user?.email;
     // Fetch data from an API or database based on the user's email
     const response = await fetch(
-      `http://localhost:5000/build-product/${email}`
+      `https://builder-next-app-6-server-3.vercel.app/build-product/${email}`
     );
     if (!response.ok) {
       throw new Error("Failed to fetch data");

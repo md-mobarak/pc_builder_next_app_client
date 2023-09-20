@@ -2,12 +2,14 @@ import Home from "@/components/Home/Home";
 import { useEffect } from "react";
 
 const Index = ({ data }) => {
-  useEffect(()=>{
-data
-  },[data])
-  return <main>
-    <Home data={data}></Home>
-    </main>;
+  useEffect(() => {
+    data;
+  }, [data]);
+  return (
+    <main>
+      <Home data={data}></Home>
+    </main>
+  );
 };
 
 export default Index;
@@ -15,7 +17,9 @@ export default Index;
 export async function getStaticProps() {
   try {
     // Fetch data from an API or any other data source
-    const res = await fetch("http://localhost:5000/product");
+    const res = await fetch(
+      "https://builder-next-app-6-server-3.vercel.app/product"
+    );
     if (!res?.ok) {
       throw new Error("Failed to fetch data");
     }

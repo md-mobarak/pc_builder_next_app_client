@@ -84,7 +84,9 @@ export async function getServerSideProps(context) {
     const { params } = context;
     const id = params?.details_Id;
     // Fetch data from an API or any other data source
-    const res = await fetch(`http://localhost:5000/product/${id}`);
+    const res = await fetch(
+      `https://builder-next-app-6-server-3.vercel.app/product/${id}`
+    );
 
     if (!res?.ok) {
       throw new Error("Failed to fetch data");

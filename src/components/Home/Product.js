@@ -18,7 +18,7 @@ const Product = ({ product }) => {
       price: data?.price,
       status: data?.status,
     };
-    fetch("http://localhost:5000/build", {
+    fetch("https://builder-next-app-6-server-3.vercel.app/build", {
       method: "POST",
       body: JSON.stringify(newData),
       headers: {
