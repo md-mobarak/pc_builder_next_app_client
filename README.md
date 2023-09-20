@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PC Builder Website using Next.js
+
+This is a simple PC Builder website for PC parts and components built using Next.js. Users can build their own PC by selecting PC components. The website includes features like a PC Builder tool, featured products, product details, and more.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Navigation](#navigation)
+- [Home Page](#home-page)
+- [Featured Categories](#featured-categories)
+- [Product Detail Page](#product-detail-page)
+- [PC Builder Page](#pc-builder-page)
 
 ## Getting Started
 
-First, run the development server:
+## Usage
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Navigation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The website features a navigation bar with the following options:
+- Home: Takes you to the home page.
+- PC Builder: Allows you to build your own PC by selecting components.
+- Categories: Contains dropdown options to explore different product categories.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Home Page
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- The home page displays featured products with details such as image, product name, category, price, status (in stock or out of stock), and rating.
+- Clicking on a featured product will take you to the product detail page for more information.
+- You can also explore featured product categories that lead to category-specific pages.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Featured Categories
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Click on a featured category to explore products within that category.
+- Each category page displays at least 3 products with details similar to those on the home page.
+- Click on a product to view its details on the product detail page.
 
-## Learn More
+## Product Detail Page
 
-To learn more about Next.js, take a look at the following resources:
+- The product detail page provides comprehensive information about a PC component, including image, product name, category, price, status, description, key features, individual rating, average rating, and reviews.
+- You can access this page by clicking on a product from the home page or category pages.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## PC Builder Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- The PC Builder page allows you to build your own PC by selecting components.
+- You can choose components from different categories, including CPU, motherboard, RAM, power supply unit, storage device, and monitor.
+- Each category has a "Choose/Select" button that leads to a page displaying at least 3 components from that category.
+- Click the "Add To Builder" button on a component card to add it to your PC build.
+- After adding at least 5-6 components (CPU, RAM, Power Supply, Storage, Motherboard, Casing), you can click the "Complete Build" button to finalize your PC build.
+- Enjoy building your custom PC with our website!
 
-## Deploy on Vercel
+## This Site URL is below
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Visit our [website](https://pc-builder-next-app-6.vercel.app/)
